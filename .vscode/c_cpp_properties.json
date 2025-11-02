@@ -1,0 +1,33 @@
+{
+  "configurations": [
+    {
+      "name": "IAR-IntelliSense",
+      "includePath": [
+        "${workspaceFolder}/Core/Inc",
+        "${workspaceFolder}/Drivers/STM32H5xx_HAL_Driver/Inc",
+        "${workspaceFolder}/Drivers/STM32H5xx_HAL_Driver/Inc/Legacy",
+        "${workspaceFolder}/Drivers/BSP/STM32H5xx_Nucleo",
+        "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32H5xx/Include",
+        "${workspaceFolder}/Drivers/CMSIS/Include"
+      ],
+      "defines": [
+        "USE_NUCLEO_64",
+        "USE_HAL_DRIVER",
+        "STM32H533xx"
+      ],
+      "compilerPath": "C:/iar/ewarm-9.70.1/arm/bin/iccarm.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "gcc-arm",
+      "browse": {
+        "path": [
+          "${workspaceFolder}/Core/Inc",
+          "${workspaceFolder}/Core/Src",
+          "${workspaceFolder}/Drivers"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ],
+  "version": 4
+}
