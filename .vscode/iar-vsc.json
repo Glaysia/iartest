@@ -1,4 +1,7 @@
 {
+  "workbench": {
+    "path": "C:\\iar\\ewarm-9.70.1"
+  },
   "workspace": {
     "path": "${workspaceFolder}\\EWARM\\Project.eww"
   },
@@ -11,8 +14,5 @@
         "path": "${workspaceFolder}\\EWARM\\iartest.ewp"
       }
     }
-  },
-  "workbench": {
-    "path": "C:\\iar\\ewarm-9.70.1"
   }
 }
