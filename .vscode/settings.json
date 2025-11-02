@@ -1,14 +1,9 @@
 {
-  "cmake.configureOnOpen": true,
-  "cmake.defaultConfigurePreset": "iar-debug",
-  "cmake.defaultBuildPreset": "iar-debug",
-  "cmake.environment": {
-    "IAR_INSTALL_ROOT": "C:/iar/ewarm-9.70.1"
-  },
   "C_Cpp.intelliSenseEngine": "default",
   "C_Cpp.autocomplete": "default",
-  "C_Cpp.intelliSenseCachePath": "%LocalAppData%/Microsoft/vscode-cpptools",
+  "C_Cpp.intelliSenseCachePath": "${workspaceFolder}\\cache",
   "C_Cpp.intelliSenseCacheSize": 10240,
+  "C_Cpp.default.compileCommands": "${workspaceFolder}\\EWARM\\iartest\\compile_commands.json",
   "files.associations": {
     "*.py": "python",
     "*.h": "c",
