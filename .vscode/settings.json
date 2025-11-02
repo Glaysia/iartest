@@ -3,7 +3,7 @@
   "C_Cpp.autocomplete": "default",
   "C_Cpp.intelliSenseCachePath": "${workspaceFolder}\\cache",
   "C_Cpp.intelliSenseCacheSize": 10240,
-  "C_Cpp.default.compileCommands": "${workspaceFolder}\\EWARM\\iartest\\compile_commands.json",
+  "C_Cpp.default.compileCommands": "${workspaceFolder}\\EWARM\\H757_CM4\\compile_commands.json",
   "files.associations": {
     "*.py": "python",
     "*.h": "c",

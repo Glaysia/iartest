@@ -1,15 +1,18 @@
 {
   "configurations": [
     {
-      "name": "IAR STM32H5",
+      "name": "IAR STM32H7",
       "includePath": [
-        "${workspaceFolder}/Core/Inc",
-        "${workspaceFolder}/Core/Src",
-        "${workspaceFolder}/Drivers/STM32H5xx_HAL_Driver/Inc",
-        "${workspaceFolder}/Drivers/STM32H5xx_HAL_Driver/Inc/Legacy",
-        "${workspaceFolder}/Drivers/BSP/STM32H5xx_Nucleo",
-        "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32H5xx/Include",
+        "${workspaceFolder}/CM4/Core/Inc",
+        "${workspaceFolder}/CM4/Core/Src",
+        "${workspaceFolder}/CM7/Core/Inc",
+        "${workspaceFolder}/CM7/Core/Src",
+        "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Inc",
+        "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+        "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Src",
+        "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32H7xx/Include",
         "${workspaceFolder}/Drivers/CMSIS/Include",
+        "${workspaceFolder}/Common/Src/",
         "C:/iar/ewarm-9.70.1/arm/inc",
         "C:/iar/ewarm-9.70.1/arm/inc/c",
         "C:/iar/ewarm-9.70.1/arm/inc/cpp"
@@ -34,8 +37,10 @@
       "intelliSenseMode": "windows-clang-arm",
       "browse": {
         "path": [
-          "${workspaceFolder}/Core/Inc",
-          "${workspaceFolder}/Core/Src",
+          "${workspaceFolder}/CM4/Core/Inc",
+          "${workspaceFolder}/CM4/Core/Src",
+          "${workspaceFolder}/CM7/Core/Inc",
+          "${workspaceFolder}/CM7/Core/Src",
           "${workspaceFolder}/Drivers",
           "C:/iar/ewarm-9.70.1/arm/inc",
           "C:/iar/ewarm-9.70.1/arm/inc/c",

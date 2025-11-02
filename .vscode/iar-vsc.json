@@ -8,10 +8,11 @@
   "workspaces": {
     "${workspaceFolder}\\EWARM\\Project.eww": {
       "configs": {
-        "${workspaceFolder}\\EWARM\\iartest.ewp": "iartest"
+        "${workspaceFolder}\\EWARM\\iartest.ewp": "iartest",
+        "${workspaceFolder}\\EWARM\\H757.ewp": "H757_CM7"
       },
       "selected": {
-        "path": "${workspaceFolder}\\EWARM\\iartest.ewp"
+        "path": "${workspaceFolder}\\EWARM\\H757.ewp"
       }
     }
   }

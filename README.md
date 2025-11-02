@@ -1,6 +1,6 @@
-# iartest STM32H533 (IAR + VS Code)
+# iartest STM32H757 (IAR + VS Code)
 
-STM32CubeMX로 생성된 NUCLEO-H533RE 예제 프로젝트를 IAR Embedded Workbench와 VS Code에서 동시에 쾌적하게 다룰 수 있도록 구성한 저장소입니다.  
+STM32CubeMX로 생성된 NUCLEO-H757I 예제 프로젝트를 IAR Embedded Workbench와 VS Code에서 동시에 쾌적하게 다룰 수 있도록 구성한 저장소입니다.  
 VS Code의 IntelliSense가 `compile_commands.json`을 그대로 활용하고, IAR 플러그인을 통해 빌드/디버깅이 가능하도록 `.vscode` 설정을 포함해 올려 두었습니다.
 
 ## 준비물
@@ -15,7 +15,7 @@ VS Code의 IntelliSense가 `compile_commands.json`을 그대로 활용하고, IA
   - `IAR Build`
   - `IAR C-SPY Debug`
   - `IAR Tools Extension Pack`
-- (선택) STM32CubeMX 6.x – `iartest.ioc` 재생성용
+- (선택) STM32CubeMX 6.x – `H757.ioc` 재생성용
 
 ## 폴더 구조
 - `Core/` – STM32 HAL 애플리케이션 코드
